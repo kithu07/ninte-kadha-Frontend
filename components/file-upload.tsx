@@ -76,7 +76,7 @@ export default function FileUpload() {
   
   const sendDataToBackend = async (jsonData: any) => {
     try {
-      const response = await fetch("ninte-kadha-backend-production.up.railway.app/upload", {
+      const response = await fetch("https://ninte-kadha-backend-production.up.railway.app/upload", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
