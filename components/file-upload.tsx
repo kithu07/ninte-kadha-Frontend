@@ -83,7 +83,7 @@ export default function FileUpload() {
         },
         body: JSON.stringify(jsonData),
       });
-  
+      console.log("Backend response:", JSON.stringify(jsonData));
       const data = await response.json(); // Get response from backend
       console.log("Backend response:", data);
   

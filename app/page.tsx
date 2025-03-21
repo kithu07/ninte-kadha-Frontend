@@ -350,16 +350,6 @@ export default function HomePage() {
             {/* Base gradient background */}
             <div className="absolute inset-0 bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50" />
             
-            {/* Image background with improved overlay */}
-            <div 
-              className="absolute inset-0 opacity-40"
-              style={{
-                backgroundImage: `url('/entekadha.jpeg')`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                backgroundRepeat: 'no-repeat',
-              }}
-            />
             
             {/* Gradient overlay for better text contrast */}
             <div className="absolute inset-0 bg-gradient-to-b from-white/70 via-white/60 to-white/70" />

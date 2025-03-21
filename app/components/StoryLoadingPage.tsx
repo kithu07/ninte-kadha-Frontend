@@ -83,18 +83,7 @@ const StoryLoadingPage: React.FC<StoryLoadingPageProps> = ({
           exit={{ opacity: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <div className="w-full max-w-md px-6 py-8 flex flex-col items-center">
-            {/* Cloud SVG */}
-            <div className="mb-8 relative w-32 h-32">
-              <Image 
-                src="/images/thinking-cloud.svg" 
-                alt="Thinking cloud" 
-                width={128}
-                height={128}
-                style={{ objectFit: 'contain' }}
-              />
-            </div>
-            
+          <div className="w-full max-w-md px-6 py-8 flex flex-col items-center">            
             {/* Loading message */}
             <motion.h2 
               className="text-2xl font-bold text-purple-700 mb-6 text-center"
